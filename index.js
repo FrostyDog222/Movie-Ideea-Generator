@@ -6,7 +6,7 @@ const setupInputContainer = document.getElementById('setup-input-container')
 const movieBossText = document.getElementById('movie-boss-text')
 
 const configuration = new Configuration({
-  apiKey: import.meta.env.VITE_OPENAI_API_KEY
+  apiKey: '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'
 })
 
 const openai = new OpenAIApi(configuration)
